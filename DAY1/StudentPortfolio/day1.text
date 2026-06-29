@@ -1,0 +1,149 @@
+Day 1 Hands-On Exercise (HON)
+Project: Student Portfolio Website
+Objective
+Create a simple Student Portfolio Website using only HTML5.
+This project will help you practice all the HTML concepts learned today.
+ 
+Project Requirements
+Section 1 - Header
+Display:
+College Logo
+College Name
+Student Name
+Example
+ABC Engineering College
+Rajesh S
+HTML Portfolio
+Section 2 - Navigation
+Create navigation links.
+Home
+About
+Skills
+Education
+Contact
+Use the <a> tag.
+Section 3 - About Me
+Display:
+Your Name
+Branch
+College
+City
+Career Goal
+Use:
+<h2>
+<p>
+<b>
+<i>
+<u>
+Section 4 - Skills
+Create two lists.
+Ordered List
+Programming Languages
+HTML
+CSS
+JavaScript
+React
+React Native
+Unordered List
+Soft Skills
+Communication
+Leadership
+Team Work
+Problem Solving
+Time Management
+Section 5 - Profile Image
+Display your profile image.
+Requirements
+Width
+Height
+Alternative Text
+Section 6 - Education Table
+Create a table.
+Qualification	Institution	Percentage	Year
+SSLC	ABC School	88	2020
+HSC	XYZ School	91	2022
+B.Tech	ABC College	
+8.5 CGPA
+	
+Pursuing
+Section 7 - Favorite Technologies
+Use formatting tags.
+Example
+HTML
+CSS
+JavaScript
+React Native
+NodeJS
+Display using
+<b>
+<i>
+<mark>
+<sup>
+<sub>
+Section 8 - Useful Links
+Create links for
+Google
+GitHub
+LinkedIn
+OpenAI
+Use
+target="_blank"
+Section 9 - Student Registration Form
+Create a registration form.
+Fields
+Student Name
+Email
+Password
+Phone Number
+Date of Birth
+Gender
+Department
+Skills
+Address
+Upload Resume
+Submit
+Reset
+Section 10 - Footer
+Display
+© 2026
+Created by
+Your Name
+Email
+Phone Number
+Folder Structure
+StudentPortfolio
+│
+├── index.html
+├── images
+│      profile.jpg
+│      college-logo.png
+│
+└── documents
+       resume.pdf
+Expected Output
+The webpage should contain:
+Header
+Navigation Menu
+About Me
+Skills
+Profile Image
+Education Table
+Useful Links
+Student Registration Form
+Footer
+Challenge Tasks
+If completed early, try the following:
+Add a college logo.
+Add another education row.
+Add more skills.
+Add another navigation link.
+Add your favorite quote.
+Add an image that opens Google when clicked.
+Add a horizontal line between each section.
+Use semantic HTML5 tags:
+<header>
+<nav>
+<section>
+<article>
+<footer>
+ 
