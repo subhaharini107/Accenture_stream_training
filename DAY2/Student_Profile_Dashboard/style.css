@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+     background-color: #f0fdf4;
+}
+h1{
+    text-align:center;
+    padding:20px;
+}
+.header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:20px;
+     background-color: #16a34a;
+
+}
+.cmpny{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.logo{
+    width:80px;
+    height:80px;
+}
+.cmpny_name{
+    font-size: 30px;
+    margin: 0;
+}
+.cmpny_desc{
+    font-size: 20px;
+    margin: 0;
+    padding-left:80px;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    background-color: #f0fdf4;
+
+}
+.nav_links > li{
+    display:inline-block;
+    margin:10px;
+}
+.nav_links > li > a{
+    text-decoration:none;
+    color:black;
+    padding:10px;
+}
+.nav_links > li > a:hover{
+      border: 1px solid black;
+      background-color: black; 
+      border-radius: 5px;
+      color: white;   
+}
+.profile{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+.profile_img{
+    width:250px;
+    height:250px;
+    margin-right:20px;    
+}
+.profile_details{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    font-size:20px;
+}
+.skills{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:10px;
+}
+.skills > li{
+    list-style-type:none;
+    padding:10px;
+    border:1px solid black;
+    border-radius:5px;
+}
+.courses{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+}
+.courses > .course{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+}
+.courses > .course p{
+    padding:30px;
+    border:1px solid black;
+    text-align:center;
+    border-radius:5px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    border:1px solid black;
+}
+table th, table td{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+    border-radius:5px;
+}
+form{
+    border:1px solid black;
+    padding:20px;
+    border-radius:5px;
+    text-align:center;
+}
+form label{
+    display:inline-block;
+    margin-bottom:10px;
+}
+
+.btn{
+    padding:10px;
+    border:1px solid black;
+    border-radius:5px;
+    background-color:black;
+    color:white;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    border-top:1px solid black;
+    background-color: #16a34a;
+    color: white;
+}
+section{
+    padding:20px;
+    background-color: white;
+}
