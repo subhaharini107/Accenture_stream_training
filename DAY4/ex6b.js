@@ -1,0 +1,10 @@
+import { Cart } from "./ex6a.js";
+let cart=new Cart();
+cart.add(1);
+cart.add(2);
+cart.add(3);
+cart.add(4);
+cart.display();
+console.log("After remove");
+cart.remove(3);
+cart.display();
