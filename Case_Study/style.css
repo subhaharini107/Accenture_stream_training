@@ -1,0 +1,128 @@
+.navbar-brand {
+    color: #326bc0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active,
+.navbar-brand:visited {
+    color: #326bc0;
+    text-decoration: none;
+}
+
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:visited {
+    color: #326bc0;
+
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: #326bc0;
+}
+
+.navbtn {
+    color: white;
+    background: #326bc0;
+    text-decoration: none;
+    padding: 22px 35px;
+}
+
+.small-logo {
+    width: auto;
+    height: auto;
+}
+
+.contact-btn {
+    background-color: #326bc0;
+}
+
+.hero-txt {
+    width: 500px;
+}
+
+.brand-title {
+    font-size: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 5;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.contact-img{
+    width: auto;
+    height: auto;
+}
+
+@media (max-width:992px) {
+    .navbar-brand {
+        font-size: 26px;
+    }
+
+    .navbtn {
+        padding: 15px 24px;
+    }
+
+    .small-logo {
+        width: 150px;
+        height: 30px;
+    }
+    .btn-wrapper{
+        margin-top: 15px;
+    }
+    .hero-btn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-txt {
+        width: 350px;
+    }
+
+    .brand-title {
+        font-size:18px ;
+    }
+    .brand-head{
+        margin-bottom: 20px;
+    }
+    .bubble-img{
+        width: 550px;
+        height: 500px;
+    }
+}
+
+@media (max-width:576px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .navbtn {
+        padding: 10px 22px;
+    }
+
+    .hero-txt {
+        width: 250px;
+    }
+    .bubble-img{
+        width: 300px;
+        height: 250px;
+    }
+
+}
