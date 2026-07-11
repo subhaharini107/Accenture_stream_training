@@ -70,6 +70,9 @@
     width: auto;
     height: auto;
 }
+.car-item{
+    background: #326bc0;
+}
 
 @media (max-width:992px) {
     .navbar-brand {
